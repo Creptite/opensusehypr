@@ -7,7 +7,7 @@ sudo zypper install opi
 sudo zypper install hyprland pipewire wireplumber xdg-desktop-portal-hyprland kitty polkit-kde-agent-5 qt6-wayland libqt5-qtwayland
 sudo zypper install waybar hyprpaper wofi hyprpicker clipman 
 sudo zypper install xdg-user-dirs zsh firefox lf gammastep htop neofetch SwayNotificationCenter
-sudo zypper install libreoffice ark gimp obs-studio btop
+sudo zypper install libreoffice ark gimp obs-studio btop discord
 #setup docker since its a pain in the butt on opensuse
 sudo zypper install distrobox
 sudo systemctl enable docker
