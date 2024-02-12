@@ -11,11 +11,13 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "temperature", "memory", "backlight", "pulseaudio", "tray"],
+    "modules-right": ["cpu", "temperature", "memory", "network", "keyboard-state", "pulseaudio", "tray",],
 
     // Modules configuration
     "hyprland/workspaces": {
         "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
         //"active-only": false,
         "all-outputs": true,
         "persistent-workspaces": {
@@ -83,10 +85,10 @@
    "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
-        // "format-critical": "{temperatureC}°C {icon}",
+        // "format-critical": "{temperatureF}°F {icon}",
         "critical-threshold": 80,
         "interval": 2,
-        "format": "{temperatureC}°C ",
+        "format": "{temperatureF}°F ",
         "format-icons": ["", "", ""]
     },
     "cpu": {
@@ -132,7 +134,8 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "on-click": "kitty -e nmtui"
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
