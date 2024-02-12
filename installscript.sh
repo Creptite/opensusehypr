@@ -2,14 +2,42 @@
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 sudo zypper dup --from packman --allow-vendor-change
 
-#install codecs
-sudo zypper install opi
-sudo zypper install hyprland pipewire wireplumber xdg-desktop-portal-hyprland kitty polkit-kde-agent-5 qt6-wayland libqt5-qtwayland
-sudo zypper install waybar hyprpaper wofi hyprpicker clipman 
-sudo zypper install xdg-user-dirs zsh firefox lf gammastep htop neofetch SwayNotificationCenter
-sudo zypper install libreoffice ark gimp obs-studio btop discord
+#install packages
+packages=(
+    opi
+    hyprland
+    pipewire
+    wireplumber
+    xdg-desktop-portal-hyprland
+    kitty
+    polkit-kde-agent-5
+    qt6-wayland
+    libqt5-qtwayland
+    waybar
+    hyprpaper
+    wofi
+    hyprpicker
+    clipman
+    xdg-user-dirs
+    zsh
+    firefox
+    lf
+    gammastep
+    htop
+    neofetch
+    SwayNotificationCenter
+    libreoffice
+    ark
+    gimp
+    obs-studio
+    btop
+    discord
+    distrobox
+)
+
+# Install packages using zypper
+sudo zypper --non-interactive install "${packages[@]}"
 #setup docker since its a pain in the butt on opensuse
-sudo zypper install distrobox
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo groupadd docker
