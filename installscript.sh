@@ -18,6 +18,7 @@ packages=(
     wofi
     hyprpicker
     clipman
+    dolphin
     xdg-user-dirs
     zsh
     firefox
@@ -33,27 +34,52 @@ packages=(
     btop
     discord
     distrobox
+    openvpn
+    qbittorrent
+    zsh
+    v4l2loopback-utils
+    v4l2loopback-kmp-default
+    v4l2loopback-autoload
 )
 
 # Install packages using zypper
 sudo zypper --non-interactive install "${packages[@]}"
-#setup docker since its a pain in the butt on opensuse
+
+#sets up user directory structure
+xdg-user-dirs-update
+#setup v4l2loop for screensharing through virtual camera
+sudo modprobe v4l2loopback 
+
+
+#DISTROBOX SETUP
+#setup docker for distrobox
 sudo systemctl enable docker
 sudo systemctl start docker
 sudo groupadd docker
 sudo usermod -aG docker $USER
 #need to restart at this point to make the docker group apply
-#in order to setup root password on the arch images
-#podman start Arch
-#podman exec -it Arch bash
-#sudo passwd root
-#su
-#sudo usermod -aG wheel zach
 
-#distrobox-create --home ~/distrobox/arch -i archlinux:latest -n "Arch"
+#create distrobox
+#distrobox-cre#need to restart at this point to make the docker group apply
+#distrobox enter Arch
+#sudo pacman -S base-devel git
+#needed for Stremio and other packages on wayland
+#sudo pacman -S qt5-wayland qt6-wayland
+#git clone https://aur.archlinux.org/yay.git
+#cd yay
+#makepkg -si
+#sudo yay stremio
+#sudo yay spotify
+#sudo yay spicetify-cli
+#sudo yay freetube-bin
+#sudo pacman -S obsidian
+#sudo yay vscodium-bin
+#export applications
+#distrobox-export -a stremio    
+#distrobox-export -a spotify    
+#distrobox-export -a obsidian    
+#distrobox-export -a freetube
+#distrobox-export -a codium
 
-
-#use distrobox-export stremio instead of the debian garbage
-
+#OTHER MANUAL STUFF that could probably be automated but lazy
 #have to manuall install jetbrainsmono nerd font to .local/share/fonts still
-xdg-user-dirs-update
