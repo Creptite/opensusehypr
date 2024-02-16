@@ -24,7 +24,6 @@ packages=(
     firefox
     lf
     gammastep
-    htop
     neofetch
     SwayNotificationCenter
     libreoffice
@@ -32,6 +31,7 @@ packages=(
     gimp
     obs-studio
     btop
+    htop
     discord
     distrobox
     openvpn
@@ -49,8 +49,9 @@ sudo zypper --non-interactive install "${packages[@]}"
 xdg-user-dirs-update
 #setup v4l2loop for screensharing through virtual camera
 sudo modprobe v4l2loopback 
-
-
+#setup vscode
+zypper ar obs://devel:tools:ide:vscode devel_tools_ide_vscode
+zypper in code
 #DISTROBOX SETUP
 #setup docker for distrobox
 sudo systemctl enable docker
