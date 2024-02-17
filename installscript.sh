@@ -22,7 +22,6 @@ packages=(
     xdg-user-dirs
     zsh
     firefox
-    lf
     gammastep
     neofetch
     SwayNotificationCenter
@@ -40,6 +39,7 @@ packages=(
     v4l2loopback-utils
     v4l2loopback-kmp-default
     v4l2loopback-autoload
+    ranger
 )
 
 # Install packages using zypper
