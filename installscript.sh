@@ -1,6 +1,7 @@
 #setup packman repo
 sudo zypper ar -cfp 90 https://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/ packman
 sudo zypper dup --from packman --allow-vendor-change
+sudo zypper ar obs://devel:tools:ide:vscode devel_tools_ide_vscode
 
 #install packages
 packages=(
@@ -15,8 +16,6 @@ packages=(
     libqt5-qtwayland
     waybar
     hyprpaper
-    wofi
-    hyprpicker
     clipman
     dolphin
     xdg-user-dirs
@@ -35,11 +34,14 @@ packages=(
     distrobox
     openvpn
     qbittorrent
-    zsh
     v4l2loopback-utils
     v4l2loopback-kmp-default
     v4l2loopback-autoload
     ranger
+    thunderbird
+    rofi-wayland
+    partitionmanager
+    code
 )
 
 # Install packages using zypper
@@ -49,9 +51,6 @@ sudo zypper --non-interactive install "${packages[@]}"
 xdg-user-dirs-update
 #setup v4l2loop for screensharing through virtual camera
 sudo modprobe v4l2loopback 
-#setup vscode
-zypper ar obs://devel:tools:ide:vscode devel_tools_ide_vscode
-zypper in code
 #DISTROBOX SETUP
 #setup docker for distrobox
 sudo systemctl enable docker
