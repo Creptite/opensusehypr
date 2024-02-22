@@ -42,6 +42,11 @@ packages=(
     rofi-wayland
     partitionmanager
     code
+    neomutt
+    isync
+    msmtp 
+    okular
+    konversation
 )
 
 # Install packages using zypper
