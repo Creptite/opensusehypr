@@ -23,7 +23,7 @@ window#waybar {
 }
 
 window#waybar.empty {
-  opacity: 0.3;
+opacity: 0.3;
 }
 
 .modules-left {
@@ -83,7 +83,8 @@ button:hover {
 }
 
 #workspaces button.active {
-  color: @activegreen;
+  /*color: @activegreen;*/
+  color: #19D9C0;
   /* background-color: #252428; */
   /* border: 3px solid #7bcbd5; */
 }

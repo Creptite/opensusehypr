@@ -47,6 +47,8 @@ packages=(
     msmtp 
     okular
     konversation
+    qt5ct
+    qt6ct
 )
 
 # Install packages using zypper
