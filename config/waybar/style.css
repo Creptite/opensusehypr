@@ -16,7 +16,6 @@
 }
 
 window#waybar {
-  color: #f5f5f5;
   background: @bg00;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -30,7 +29,7 @@ opacity: 0.3;
   background: @bg;
   border: 2px solid @bordercolor;
   border-radius: 20px;
-
+  color: #F5F5F5;
   padding-right: 5px;
   padding-left: 5px;
 }
@@ -69,7 +68,8 @@ button:hover {
 
 #workspaces button {
   /* background-color: #252428; */
-  color: @fg;
+  /*color: @fg;*/
+  color: #f5f5f5;
 }
 
 #workspaces button.urgent {
@@ -78,7 +78,7 @@ button:hover {
   /* border: 3px solid #f53c3c; */
 }
 #workspaces button.empty {
-  color: @disabled;
+  color: @fg;
   /* background-color: #252428; */
 }
 

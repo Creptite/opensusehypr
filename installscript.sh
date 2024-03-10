@@ -18,6 +18,7 @@ packages=(
     hyprpaper
     clipman
     dolphin
+    krusader
     xdg-user-dirs
     zsh
     firefox
@@ -41,7 +42,7 @@ packages=(
     thunderbird
     rofi-wayland
     partitionmanager
-    code
+    kate
     neomutt
     isync
     msmtp 
@@ -49,6 +50,7 @@ packages=(
     konversation
     qt5ct
     qt6ct
+    brightnessctl
 )
 
 # Install packages using zypper
