@@ -51,6 +51,7 @@ packages=(
     qt5ct
     qt6ct
     brightnessctl
+    kalk
 )
 
 # Install packages using zypper
