@@ -66,10 +66,10 @@ Window Width=-1
 Confirm Remove UserAction=false
 
 [Private]
-NewFolder Completion list=.fonts:1,obsidian pictures:1
-NewFolder History list=obsidian pictures,.fonts
-PopularUrls=krarc:/home/zach/Downloads/obsidian-20240414T000445Z-001.zip/,krarc:/home/zach/Downloads/obsidian-20240406T232708Z-001.zip/,file:///home/zach/Documents/,file:///home/zach/Downloads/,file:///home/zach/,file:///home/zach/Documents/obsidian_backup/,file:///home/zach/Documents/obsidian/Literature/Demons Kids/Rough Draft/,file:///home/zach/Documents/obsidian/Literature/Demons Kids/,file:///home/zach/Documents/obsidian/Literature/,file:///home/zach/Documents/obsidian/,file:///home/zach/Documents/opensuse_hyprland/home/,file:///home/,file:///home/zach/Music/fore!/,file:///,file:///home/zach/Music/,file:///mnt/music/Bruce_Springsteen/,file:///mnt/music/Bruce_Springsteen/Born_To_Run/,file:///mnt/,file:///mnt/music/70's/,file:///mnt/music/,file:///home/zach/Documents/opensuse_hyprland/,file:///home/zach/Music/danger_days/,file:///home/zach/Music/thick_as_a_brick/,file:///home/zach/Music/the_sound_of_madness/,krarc:/home/zach/Documents/updated w23_4_24.ods/,krarc:/home/zach/Downloads/obsidian-20240324T174412Z-001.zip/,krarc:/home/zach/Downloads/obsidian-20240316T234709Z-001.zip/,file:///home/zach/Pictures/obsidian pictures/,file:///home/zach/Pictures/,file:///home/zach/Documents/scripts/
-PopularUrlsRank=20,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NewFolder Completion list=.fonts:1,obsidian pictures:1,casino guides:1,Games:1,backups7_7_24:1,Pictures:1
+NewFolder History list=Pictures,backups7_7_24,Games,casino guides,obsidian pictures,.fonts
+PopularUrls=file:///home/zach/mnt/backups7_7_24/Pictures/,file:///home/zach/mnt/backups7_7_24/,file:///home/zach/mnt/,file:///home/zach/Games/,file:///home/zach/Downloads/backups7_7_24/,file:///home/zach/Videos/,file:///home/zach/,file:///home/zach/Desktop/,file:///home/zach/Music/,file:///home/zach/Downloads/,file:///home/zach/Downloads/backups7_7_24/Pictures/,file:///home/zach/Downloads/freetube_backup/,file:///home/zach/Downloads/backups7_7_24/obsidian/,trash:/,file:///home/zach/Documents/,file:///home/zach/Pictures/,file:///home/zach/Documents/casino guides/,file:///home/zach/Documents/soleprop/,krarc:/home/zach/Downloads/JetBrainsMono.zip/,krarc:/home/zach/Downloads/obsidian-20240513T162757Z-001.zip/,file:///home/,file:///,krarc:/home/zach/Downloads/obsidian-20240423T003541Z-001.zip/,krarc:/home/zach/Downloads/pay_statements.zip/,file:///home/zach/Documents/obsidian/Literature/Hand and Glove/Rough Draft - NEW/,file:///home/zach/Documents/obsidian/Literature/Hand and Glove/Rough Draft - OLD/,file:///home/zach/Documents/obsidian/Literature/Hand and Glove/,file:///home/zach/Documents/opensuse_hyprland/Documents/scripts/,file:///home/zach/Documents/obsidian/,file:///home/zach/Documents/obsidian/Literature/
+PopularUrlsRank=20,15,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Start Position=0,0
 Start Size=1379,1359
 cmdline history=
@@ -78,12 +78,12 @@ newFTP History list=
 newFTP Protocol=ftp://
 
 [Startup]
-Left Side Is Active=true
+Left Side Is Active=false
 Show Cmd Line=false
 Show FN Keys=true
 Show Terminal Emulator=false
 Show status bar=true
-Splitter Sizes=688,687
+Splitter Sizes=692,683
 State=\x00\x00\x00\xff\x00\x00\x00\x00\xfd\x00\x00\x00\x00\x00\x00\x05c\x00\x00\x04\xf3\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x08\xfc\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x16\x00m\x00a\x00i\x00n\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00j\x00o\x00b\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x02|\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1c\x00a\x00c\x00t\x00i\x00o\x00n\x00s\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x031\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00
 Terminal Emulator Splitter Sizes=100,100
 Vertical Mode=false
@@ -95,12 +95,12 @@ ActiveTab=0
 PinnedUrl=
 Properties=0
 Type=0
-Url=krarc:/home/zach/Downloads/obsidian-20240414T000445Z-001.zip
+Url=file:///home/zach/Downloads/backups7_7_24
 
 [Startup][Left Tab Bar][Tabs][Tab0][History]
 CurrentIndex=0
-CurrentItems=obsidian,obsidian-20240414T000445Z-001.zip,Total_COL_2024.xlsx,..,Chapter 11.4 Ms Rhynholdt.md,Rough Draft,..,Rough Draft,Demons Kids,Literature,obsidian,..,obsidian_backup
-Entrys=krarc:/home/zach/Downloads/obsidian-20240414T000445Z-001.zip,file:///home/zach/Downloads,file:///home/zach/Documents,file:///home/zach/Documents/obsidian/Literature/Demons Kids,file:///home/zach/Documents/obsidian/Literature/Demons Kids/Rough Draft,file:///home/zach/Documents/obsidian/Literature/Demons Kids,file:///home/zach/Documents/obsidian/Literature/Demons Kids/Rough Draft,file:///home/zach/Documents/obsidian/Literature/Demons Kids,file:///home/zach/Documents/obsidian/Literature,file:///home/zach/Documents/obsidian,file:///home/zach/Documents,file:///home/zach/Documents/obsidian_backup,file:///home/zach/Documents
+CurrentItems=..,backups7_7_24,..,..,Pictures,..,obsidian,backups7_7_24,Total_COL_2024.xlsx,Documents,solepropletter.pdf,soleprop,..
+Entrys=file:///home/zach/Downloads/backups7_7_24,file:///home/zach/Downloads,file:///home/zach/Downloads/backups7_7_24,file:///home/zach/Downloads/backups7_7_24/Pictures,file:///home/zach/Downloads/backups7_7_24,file:///home/zach/Downloads/backups7_7_24/obsidian,file:///home/zach/Downloads/backups7_7_24,file:///home/zach/Downloads,file:///home/zach/Documents,file:///home/zach,file:///home/zach/Documents/soleprop,file:///home/zach/Documents,file:///home/zach/Documents/casino guides
 
 [Startup][Left Tab Bar][Tabs][Tab0][View]
 AutoResizeColumns=true
@@ -108,9 +108,9 @@ Descending Sort Order=0
 Filter=3
 FilterApplysToDirs=false
 IconSize=22
-Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x02\xae\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x01>\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
+Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x02\xb2\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x01B\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
 ShowPreviews=false
-Sort Column=1
+Sort Column=0
 
 [Startup][Right Tab Bar]
 ActiveTab=0
@@ -119,12 +119,12 @@ ActiveTab=0
 PinnedUrl=
 Properties=0
 Type=0
-Url=file:///home/zach/Documents
+Url=file:///home/zach/mnt/backups7_7_24/Pictures
 
 [Startup][Right Tab Bar][Tabs][Tab0][History]
 CurrentIndex=0
-CurrentItems=obsidian_old,..,..,obsidian,obsidian-20240406T232708Z-001.zip,Total_COL_2024.xlsx,obsidian-20240401T013946Z-001.zip,obsidian_backup,..,..,..,Chapter 11.2 25 cents a cup.md,Rough Draft
-Entrys=file:///home/zach/Documents,file:///home/zach,file:///home/zach/Downloads,krarc:/home/zach/Downloads/obsidian-20240406T232708Z-001.zip,file:///home/zach/Downloads,file:///home/zach/Documents,file:///home/zach/Downloads,file:///home/zach/Documents,file:///home/zach/Documents/obsidian,file:///home/zach/Documents/obsidian/Literature,file:///home/zach/Documents/obsidian/Literature/Demons Kids,file:///home/zach/Documents/obsidian/Literature/Demons Kids/Rough Draft,file:///home/zach/Documents/obsidian/Literature/Demons Kids
+CurrentItems=..,Pictures,backups7_7_24,..,backups7_7_24,mnt,..,mnt,..,Downloads,..,..,..
+Entrys=file:///home/zach/mnt/backups7_7_24/Pictures,file:///home/zach/mnt/backups7_7_24,file:///home/zach/mnt,file:///home/zach/mnt/backups7_7_24,file:///home/zach/mnt,file:///home/zach,file:///home/zach/mnt,file:///home/zach,file:///home/zach/Downloads,file:///home/zach,file:///home/zach/Downloads,file:///home/zach,file:///home/zach/Music
 
 [Startup][Right Tab Bar][Tabs][Tab0][View]
 AutoResizeColumns=true
@@ -132,7 +132,7 @@ Descending Sort Order=0
 Filter=3
 FilterApplysToDirs=false
 IconSize=22
-Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x02\xad\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x01=\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
+Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x02\xa9\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x019\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00=\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x9e\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x001\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d
 ShowPreviews=false
 Sort Column=0
 
