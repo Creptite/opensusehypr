@@ -18,7 +18,6 @@ packages=(
     hyprpaper
     clipman
     dolphin
-    krusader
     xdg-user-dirs
     zsh
     firefox
@@ -31,7 +30,6 @@ packages=(
     obs-studio
     btop
     htop
-    discord
     distrobox
     openvpn
     qbittorrent
@@ -42,7 +40,6 @@ packages=(
     thunderbird
     rofi-wayland
     partitionmanager
-    kate
     neomutt
     isync
     msmtp 
