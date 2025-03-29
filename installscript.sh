@@ -51,6 +51,7 @@ packages=(
     kalk
     hyprland-qtutils
     hyprpickr
+    git
 )
 
 # Install packages using zypper
@@ -60,6 +61,11 @@ sudo zypper --non-interactive install "${packages[@]}"
 xdg-user-dirs-update
 #setup v4l2loop for screensharing through virtual camera
 sudo modprobe v4l2loopback 
+#pull adi's rofi https://github.com/adi1090x/rofi
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+./setup.sh
 #DISTROBOX SETUP
 #setup docker for distrobox
 #sudo systemctl enable docker
