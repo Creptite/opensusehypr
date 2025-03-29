@@ -49,6 +49,8 @@ packages=(
     qt6ct
     brightnessctl
     kalk
+    hyprland-qtutils
+    hyprpickr
 )
 
 # Install packages using zypper
@@ -60,10 +62,10 @@ xdg-user-dirs-update
 sudo modprobe v4l2loopback 
 #DISTROBOX SETUP
 #setup docker for distrobox
-sudo systemctl enable docker
-sudo systemctl start docker
-sudo groupadd docker
-sudo usermod -aG docker $USER
+#sudo systemctl enable docker
+#sudo systemctl start docker
+#sudo groupadd docker
+#sudo usermod -aG docker $USER
 #need to restart at this point to make the docker group apply
 
 #create distrobox
@@ -90,3 +92,4 @@ sudo usermod -aG docker $USER
 
 #OTHER MANUAL STUFF that could probably be automated but lazy
 #have to manuall install jetbrainsmono nerd font to .local/share/fonts still
+#move set nocompatible to the top of/usr/share/vim/vimX/suse.vimrc
