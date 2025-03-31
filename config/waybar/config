@@ -38,7 +38,7 @@
             "2": "󰗃",
             "3": "󰇮",
             "4": "",
-            "5": "",
+            "5": "",
             "6": "",
             "7": "",
             "8": "",
@@ -129,10 +129,10 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": " :{ipaddr}", //({essid} {signalStrength}%)
-        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-ethernet": "{ipaddr}/{cidr} 󰛳",
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Disconnected ⚠",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
         "on-click": "kitty -e nmtui"

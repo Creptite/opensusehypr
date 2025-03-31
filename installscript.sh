@@ -48,10 +48,10 @@ packages=(
     qt5ct
     qt6ct
     brightnessctl
-    kalk
     hyprland-qtutils
     hyprpickr
     git
+    speedcrunch
 )
 
 # Install packages using zypper

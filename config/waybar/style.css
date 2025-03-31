@@ -1,6 +1,7 @@
 @define-color bg rgba(4, 20, 45, 0.50);
 @define-color bg-alt #252428;
 @define-color fg #f5f5f5;
+@define-color inact #A9A9A9;
 @define-color alert #f53c3c;
 @define-color disabled #a5a5a5;
 @define-color bordercolor #29c8e5;
@@ -78,8 +79,8 @@ button:hover {
   /* border: 3px solid #f53c3c; */
 }
 #workspaces button.empty {
-  color: @fg;
-  /* background-color: #252428; */
+  color: @inact;
+  /* background-color: #252428; */ 
 }
 
 #workspaces button.active {
